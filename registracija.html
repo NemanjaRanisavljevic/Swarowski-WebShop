@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swarovski kristali</title>
+	<meta name="keywords" content="kristalni nakit, registracija za online kupovinu,Swarovski prozivodi"/>
+	<meta http-equiv="Content-type"  charset="utf-8"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<link rel="shortcut icon" href="images/ikonica.ico"/>
+	<meta name="author" content="Nemanja Ranisavljević 86/16"/>
+	
+</head>
+<body>
+	<div class="drzac">
+		<a href="index.html" title="Početna"><img src="images/logo.png" alt="Logo"/></a>
+	</div>
+	<div class="drzac">
+				<ul>
+					<li id="meni"><a href="index.html">Početna</a></li>
+					<li><a href="prodavnica.html">Prodavnica</a></li>
+					<li><a href="prijava.html">Prijavi se</a></li>
+					<li><a href="autor.html">Autor</a></li>
+				</ul>
+	</div>
+	<div id="slajder">
+		<img  class="show" src="images/slajder1.jpg" alt="Slika 1"/>
+		<img src="images/slajder2.jpg" alt="Slika 2"/>
+		<img src="images/slajder3.jpg" alt="Slika 3"/>
+	</div>
+	
+		<div id="centralni">
+			<div id="div-levo">
+				
+			</div> 
+			<div id="div-desno">
+				<div class="precice">
+					<ul>
+						<li class="aktivan"><a href="prijava.html">Prijava</a></li>
+						<li class="aktivan"><a href="registracija.html">Registracija</a></li>
+					</ul>
+				</div>
+				<div id="registracija"> 
+					<form>
+						<table>
+							<caption><h2>Naravi nalog</h2></caption>
+							<tr>
+								<td>Ime i Prezime:</td>
+								<td><input type="text" id="imePrezime" name="imePrezime" placeholder="Unesite vase ime i prezime"/></td>
+							</tr>
+							<tr>
+								<td>Pol:</td>
+								<td id="lista"></td>
+							</tr>
+							<tr>
+								<td>Adresa:</td>
+								<td><input type="text" id="adresa" name="Adresa"placeholder="npr. Zdravka Celara 16"/></td>
+							</tr>
+							<tr>
+								<td>Grad:</td>
+								<td><input type="text" id="grad" name="grad"placeholder="npr. Beograd"/></td>
+							</tr>
+							<tr>
+								<td>Poštanski broj:</td>
+								<td><input type="text" id="postanskiBr" name="postanskiBr"placeholder="npr. 11000"/></td>
+							</tr>
+							<tr>
+								<td>Email adresa:</td>
+								<td><input type="text" id="emailAdresa" name="emailAdresa" placeholder="Adresa mora da bude gmail.com"/></td>
+							</tr>
+							<tr>
+								<td>Šifra:</td>
+								<td><input type="password" id="sifra" name="sifra" placeholder="Mora poceti velikim slovom"/></td>
+							</tr>
+							<tr>
+								<td>Da li imate neki komad<br/>Swarovski nakita:</td>
+								<td>
+									<input type="radio" name="anketa" value="Da" class="ne"/>DA
+									<input type="radio" name="anketa" value="Ne" class="ne"/>NE
+								</td>
+							</tr>
+							<tr>
+								<td><input type="button" id="dugme" onclick="proveraForme();" value="REGISTRUJ SE"/></td>
+								<td><input type="reset" id="dugme" value="PONIŠTI"/></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<div class="cistac"></div>
+		</div>
+	
+	<div class="drzac">
+		<div class="futerPretplata">
+			<div id="otac">
+				<div id="pretplata">
+					<h3>Pretplatite se </h3>
+					<h4>i budite obavešteni o novim prozivodima</h4>
+				</div>
+				<div id="pretplataEmail">
+					<form action=""  method="get">
+						<input type="email" placeholder="Unesite vasu email adresu.." id="PretplatioSe"/>
+						<input type="submit" id="dugme" value="PRETPLATI SE"/>
+					</form>
+				</div>
+				<div class="cistac"></div>
+			</div>
+		</div>
+		<div id="futer">
+			<div id="futerLinkovi">
+				<ul>
+					<li><a href="dokumentacija.pdf" title="DOKUMENTACIJA"><img src="images/png1.png" alt="dokumentacija"/></a></li>
+					<li><a href="https://www.facebook.com/SWAROVSKI.global/" title="FACEBOOK"><img src="images/png2.png" alt="siteMap"/></a></li>
+					<li><a href="https://www.instagram.com/swarovski/" title="INSTAGRAM"><img src="images/png3.png" alt="INSTAGRAM"/></a></li>
+					<li><a href="https://www.youtube.com/Swarovski" title="YOUTUBE"><img src="images/png4.png" alt="YOUTUBE"/></a></li>
+				</ul>
+			</div>
+			<div id="napomena">
+				<a href="autor.html" title="AUTOR"><span>Sajt namenjen predispitnim obavezama - Nemanja Ranisavljević 86/16</span></a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="jScriptRegistracija.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jQueryRegistracija.js"></script>
+	<script type="text/javascript" src="jquery.vanillabox.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+[
+	{
+		"cena":"72$",
+		"naziv":"Latica Cvetni Privezak",
+		"slike":
+			{
+			  "src":"images/lancic1.jpg",
+			  "alt":"lancic1"
+			}
+	},
+	{
+		"cena":"109$",
+		"naziv":"Ogrlica Cvetna",
+		"slike":
+			{
+			  "src":"images/lancic2.jpg",
+			  "alt":"lancic2"
+			}
+	},
+	{
+		"cena":"128$",
+		"naziv":"Šarena Plesna Ogrlica",
+		"slike":
+			{
+			  "src":"images/lancic3.jpg",
+			  "alt":"lancic3"
+			}
+	},
+	{
+		"cena":"86$",
+		"naziv":"Ogrlica Srce",
+		"slike":
+			{
+			  "src":"images/lancic4.jpg",
+			  "alt":"lancic4"
+			}
+	},
+	{
+		"cena":"70$",
+		"naziv":"Privezak Damski Kluč",
+		"slike":
+			{
+			  "src":"images/lancic5.jpg",
+			  "alt":"lancic5"
+			}
+	},
+	{
+		"cena":"85$",
+		"naziv":"Kristalna Ogrlica",
+		"slike":
+			{
+			  "src":"images/lancic6.jpg",
+			  "alt":"lancic6"
+			}
+	},
+	{
+		"cena":"55$",
+		"naziv":"Krislni Privezak",
+		"slike":
+			{
+			  "src":"images/lancic7.jpg",
+			  "alt":"lancic7"
+			}
+	},
+	{
+		"cena":"120$",
+		"naziv":"Biserni Privezak",
+		"slike":
+			{
+			  "src":"images/lancic8.jpg",
+			  "alt":"lancic8"
+			}
+	},
+	{
+		"cena":"105$",
+		"naziv":"Atraktivna Y Ogrlica",
+		"slike":
+			{
+			  "src":"images/lancic9.jpg",
+			  "alt":"lancic9"
+			}
+	},
+	{
+		"cena":"76$",
+		"naziv":"Šareni Privezak",
+		"slike":
+			{
+			  "src":"images/lancic10.jpg",
+			  "alt":"lancic10"
+			}
+	}
+	
+]
